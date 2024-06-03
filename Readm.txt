@@ -1,0 +1,26 @@
+Project Title: Stopwatch Application
+
+Description:
+This project is a simple stopwatch application built using HTML, CSS, and JavaScript. 
+It allows users to start, stop, and reset a stopwatch timer. 
+The application also features a stylish user interface with a background image.
+
+Contents:
+1. index.html - The HTML file containing the structure of the stopwatch application.
+2. script.js - The JavaScript file containing the logic for the stopwatch timer.
+3. style.css - The CSS file containing styles for the stopwatch application, including the background image.
+
+Usage:
+1. Open index.html in a web browser.
+2. Click the "Start" button to start the stopwatch timer.
+3. Click the "Stop" button to pause the stopwatch timer.
+4. Click the "Reset" button to reset the stopwatch timer to 00:00:00.
+
+Dependencies:
+- This project does not have any external dependencies and can be run in any modern web browser.
+
+Background Image:
+- The background image used in the application is sourced from the file "stopwatch.jpeg".
+
+Author:
+Yash Kumar Meena
