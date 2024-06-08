@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,7 +8,6 @@ body {
     background-image: url('stopwatch.jpeg'); 
     background-size: cover;
     background-position: center;
-    
 }
 
 .container {
@@ -19,7 +17,7 @@ body {
     width: 500px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #display {
@@ -41,8 +39,35 @@ button {
     cursor: pointer;
     background-color: #007bff;
     color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 button:active {
-    background-color: #0056b3;
+    background-color: #003f7f;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lap {
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+#laps h2 
+{
+   align-items: center;
+   padding-top: 0px;
 }
